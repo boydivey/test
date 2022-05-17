@@ -1,12 +1,13 @@
 # Wordle-React
 
-A Wordle clone made with React
+A Wordle clone made with React.
 
 ---
 
 ## Requirements
 
 You will need a modern web browser, NodeJS, and NPM to run this project.
+To complete the exercises it is recommended that you have an IDE for C# and JavaScript.
 
 ### Node
 
@@ -48,31 +49,52 @@ If you need to update `npm`, you can do so using `npm`! Cool right? After runnin
 
 ## Install
 
-    $ git clone https://gitlab.com/maximumsnow/wordle-react
-    $ cd wordle-react
-    $ npm install
+```bash
+  $ git clone https://gitlab.com/maximumsnow/wordle-react
+  $ cd wordle-react/wordle-API
+  $ npm install
+```
 
 ## Running the project
 
 ```bash
+  $ cd wordle-react/wordle-API
   $ npm start
 ```
+
+## How to Play
+
+Guess the **WORDLE** in six tries.
+
+Each guess must consist of 5 letters. Use the keyboard to add letters and hit the enter button to submit.
+
+After each guess, the color of the tiles will change to show how close your guess was to the word.
+
+If the tile is green the letter is in the correct spot.
+
+If the tile is blue the letter is correct but in the wrong spot.
+
+If the tile is grey the letter is not in the wordle.
 
 ---
 
 ## Exercises
 
+Before working on the following exercises create a branch with your name. Make all code changes inside this branch.
+It is recomended that you push the code after completing each part of an exercise.
+
 ### 1. Separate Data from Code
 
-This project contains a set of words within the code to be used for the word being guessed. This means that to add/remove/update the words being used a code file must be edited. This is considered bad practice. If we know data is going to be changed it should be located outside the code so it can be altered without touching code files. This exercise consists of multiple parts.
+This project contains two folders. Wordle-API (empty) and wordle-UI (NodeJS Project).
+The wordle-UI project contains a set of words within the code to be used for the word being guessed. This means that to add/remove/update the words being used a code file must be edited. This is considered bad practice. If we know data is going to be changed it should be located outside the code so it can be altered without touching code files. This exercise consists of multiple parts.
 
 #### Exercise 1: Part 1
 
-Create a file that contains the current word list contained in the project.
+Find the words in the code and create a file in wordle-API containing those words.
 
 #### Exercise 1: Part 2
 
-Create an API that returns a random word from the file created in step 1. Remember to create unit tests for your code where possible.
+Using C# create an API in the worlde-API folder that returns a random word from the file created in step 1. Remember to create unit tests for your code where possible.
 
 #### Exercise 1: Part 3
 
@@ -80,11 +102,11 @@ Refactor the API created in Part 2 to accept a query string. If the query string
 
 #### Exercise 1: Part 4
 
-Refactor this project to contact the API created in Part 2 and use the word provided by the API as the solution to the puzzle.
+Refactor the wordle-UI project to contact the API created in Part 2 and use the word provided by the API as the solution to the puzzle.
 
 ---
 
-### 2. End-to-End Test Automation
+<!-- ### 2. End-to-End Test Automation
 
 The value of test automation has been proven many times. However, automation requires known and expected outcomes. The randomness of the word to be guessed makes automation difficult. Sometimes to make automation easier a way to test the project needs to be programmatically added. This exercise consists of multiple parts.
 
@@ -131,4 +153,4 @@ Add the Enter and Backspace keys.
 
 #### Exercise 4: Part 3
 
-Refactor the Keypad to allow a user to click the keys of the keypad and have it work like the user pressed the key on the keyboard.
+Refactor the Keypad to allow a user to click the keys of the keypad and have it work like the user pressed the key on the keyboard. -->
