@@ -80,8 +80,7 @@ If the tile is grey the letter is not in the wordle.
 
 ## Exercises
 
-Before working on the following exercises create a branch with your name. Make all code changes inside this branch.
-It is recomended that you push the code after completing each part of an exercise.
+Before working on the following exercises create a git repo and clone it locally. Then move the files from this project to that repo.
 
 ### 1. Separate Data from Code
 
