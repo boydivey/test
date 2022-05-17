@@ -80,7 +80,7 @@ If the tile is grey the letter is not in the wordle.
 
 ## Exercises
 
-Before working on the following exercises create a git repo and clone it locally. Then move the files from this project to that repo.
+Before working on the following exercises create a git repo and clone it locally. Then move the files from this project to that repo (excluding the .git folder).
 
 ### 1. Separate Data from Code
 
