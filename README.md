@@ -51,14 +51,14 @@ If you need to update `npm`, you can do so using `npm`! Cool right? After runnin
 
 ```bash
   $ git clone https://gitlab.com/maximumsnow/wordle-react
-  $ cd wordle-react/wordle-API
+  $ cd wordle-react/wordle-UI
   $ npm install
 ```
 
 ## Running the project
 
 ```bash
-  $ cd wordle-react/wordle-API
+  $ cd wordle-react/wordle_API
   $ npm start
 ```
 
@@ -84,16 +84,16 @@ Before working on the following exercises create a git repo and clone it locally
 
 ### 1. Separate Data from Code
 
-This project contains two folders. Wordle-API (empty) and wordle-UI (NodeJS Project).
+This project contains two folders. Wordle_API (empty) and wordle-UI (NodeJS Project).
 The wordle-UI project contains a set of words within the code to be used for the word being guessed. This means that to add/remove/update the words being used a code file must be edited. This is considered bad practice. If we know data is going to be changed it should be located outside the code so it can be altered without touching code files. This exercise consists of multiple parts.
 
 #### Exercise 1: Part 1
 
-Find the words in the code and create a file in wordle-API containing those words.
+Find the words in the code and create a file in wordle_API containing those words.
 
 #### Exercise 1: Part 2
 
-Using C# create an API in the worlde-API folder that returns a random word from the file created in step 1. Remember to create unit tests for your code where possible.
+Using C# create an API in the wordle_API folder that returns a random word from the file created in step 1. Remember to create unit tests for your code where possible.
 
 #### Exercise 1: Part 3
 
