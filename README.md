@@ -58,7 +58,7 @@ If you need to update `npm`, you can do so using `npm`! Cool right? After runnin
 ## Running the project
 
 ```bash
-  $ cd wordle-react/wordle_API
+  $ cd wordle-react/wordle-UI
   $ npm start
 ```
 
