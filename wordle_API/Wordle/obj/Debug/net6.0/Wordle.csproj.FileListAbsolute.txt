@@ -1,0 +1,7 @@
+C:\Users\bivey\source\repos\Wordle\Wordle\obj\Debug\net6.0\Wordle.csproj.AssemblyReference.cache
+C:\Users\bivey\source\repos\Wordle\Wordle\obj\Debug\net6.0\Wordle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bivey\source\repos\Wordle\Wordle\obj\Debug\net6.0\Wordle.AssemblyInfoInputs.cache
+C:\Users\bivey\source\repos\Wordle\Wordle\obj\Debug\net6.0\Wordle.AssemblyInfo.cs
+C:\Users\bivey\source\repos\Wordle\Wordle\obj\Debug\net6.0\Wordle.csproj.CoreCompileInputs.cache
+C:\Users\bivey\source\repos\Wordle\Wordle\obj\Debug\net6.0\Wordle.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\bivey\source\repos\Wordle\Wordle\obj\Debug\net6.0\Wordle.MvcApplicationPartsAssemblyInfo.cache
