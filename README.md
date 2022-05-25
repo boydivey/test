@@ -110,10 +110,10 @@ Upload your code to your favorite git repository (github, gitlab, bitbucket, etc
 1. Create a new repo in your favorite git repository
 2. Open a command prompt
 3. Navigate to the Wordle-React directory
-4. Run the following commands
+4. Run the following commands with your repo
 
 ``` sh
-  $ git remote set-url origin git@your.git.repo.example.com:user/repository2.git
+  $ git remote set-url origin your-repo-url
   $ git add .
   $ git commit -am "your commit message"
   $ git push
