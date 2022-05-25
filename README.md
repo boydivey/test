@@ -80,8 +80,6 @@ If the tile is grey the letter is not in the wordle.
 
 ## Exercises
 
-Before working on the following exercises create a git repo and clone it locally. Then move the files from this project to that repo (excluding the .git folder).
-
 ### 1. Separate Data from Code
 
 This project contains two folders. Wordle_API (empty) and wordle-UI (NodeJS Project).
@@ -105,51 +103,18 @@ Refactor the wordle-UI project to contact the API created in Part 2 and use the 
 
 ---
 
-<!-- ### 2. End-to-End Test Automation
+## Upload your solution to git
 
-The value of test automation has been proven many times. However, automation requires known and expected outcomes. The randomness of the word to be guessed makes automation difficult. Sometimes to make automation easier a way to test the project needs to be programmatically added. This exercise consists of multiple parts.
+Upload your code to your favorite git repository (github, gitlab, bitbucket, etc) and send a link to Rich and Mike.
 
-Note: Exercise 1 should be completed first.
+1. Create a new repo in your favorite git repository
+2. Open a command prompt
+3. Navigate to the Wordle-React directory
+4. Run the following commands
 
-#### Exercise 2: Part 1
-
-Refactor the project from exercise 1 to accept a URL Query String named test. When the query string test exists, the project should use the value of test for the word being guessed. This way test automation can specify a word to be used for testing
-
-#### Exercise 2: Part 2
-
-Using your preferred test automation framework, create end-to-end test automation for the project.
-
----
-
-### 3. Containerization
-
-Developers can create containers without Docker, but the platform makes it easier, simpler, and safer to build, deploy and manage containers. Docker is essentially a toolkit that enables developers to build, deploy, run, update, and stop containers using simple commands and work-saving automation through a single API.
-
-In this exercise lets pretend you have released your wordle project and it's popularity has exploded. It has become so popular that your word randomizing API created in exercise 1 is dropping connections because it cannot handle all the traffic. To solve this issue you need to containerize your API so DevOps can run more than one instance of the API behind a load balancer.
-
-#### Exercise 3: Part 1
-
-Create a Dockerfile for the API created in Exercise 1. Build the docker container and run it. When completed all tests should pass.
-
-#### Exercise 3: Part 2
-
-Docker Compose provides a way to orchestrate multiple containers that work together.
-Build the wordle-react Docker Image. Now that two docker images exist (one for the API and one for wordle) create a docker-compose file that will build and run both.
-
----
-
-### 4. Enhancing the project
-
-Rarely do we have an opportunity to write code that then does not have to be altered in some way later. New requirements are given or an issue is found. In this case we want to enhance the keypad of the wordle app.
-
-#### Exercise 4: Part 1
-
-Refactor the Keypad to match the layout of the letters on your keyboard.
-
-#### Exercise 4: Part 2
-
-Add the Enter and Backspace keys.
-
-#### Exercise 4: Part 3
-
-Refactor the Keypad to allow a user to click the keys of the keypad and have it work like the user pressed the key on the keyboard. -->
+``` sh
+  $ git remote set-url origin git@your.git.repo.example.com:user/repository2.git
+  $ git add .
+  $ git commit -am "your commit message"
+  $ git push
+```
